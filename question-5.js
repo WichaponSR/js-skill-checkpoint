@@ -2,6 +2,14 @@
 
 function calculateTotalPrice() {
   // เริ่มเขียนโค้ดตรงนี้
+
+  let sum = [];
+  let result;
+   for(let calc in sumOrder){
+      sum.push(sumOrder[calc].price * sumOrder[calc].quantity)
+     result = sum.reduce((a, b) => a + b);
+   }
+   console.log(result);
 }
 
 // ตัวอย่างการใช้งาน
