@@ -1,6 +1,6 @@
 // Question 4: Shipping Cost Calculator
 
-function calculateShippingCost() {
+function calculateShippingCost(cost) {
   // เริ่มเขียนโค้ดที่นี่
 
    if (cost >= 4000) {
