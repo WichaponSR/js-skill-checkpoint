@@ -1,6 +1,6 @@
 // Question 5: Calculating Total Price in User's Cart
 
-function calculateTotalPrice() {
+function calculateTotalPrice(sumOrder) {
   // เริ่มเขียนโค้ดตรงนี้
 
   let sum = [];
